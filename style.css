@@ -15,11 +15,11 @@ body {
 
 header{
     background: 
-        linear-gradient(rgba(13, 21, 41, 0.45), rgba(13, 21, 41, 0.25)),
+        linear-gradient(rgba(13, 21, 41, 0.55), rgba(13, 21, 41, 0.45)),
         url("Images/HeaderImg1.jpg") center / cover no-repeat;
     color: #ffffff;
     text-align: center;
-    padding: 10rem 1rem;
+    padding: 8rem 1rem;
 }
 /* max width stops text from stretching on wider monitors */
 /* margin: 2rem auto above and below main while horizontally centering it */
@@ -29,6 +29,21 @@ main{
     max-width: 720px;
     margin: 2rem auto;
     padding: 0 1rem;
+}
+.intro-Paragraph{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+.intro-Paragraph img{
+    width: 150%;
+    height: auto;
+}
+@media (max-width: 600px){
+    .intro-Paragraph {
+        grid-template-columns: 1fr;
+    }
 }
 
 section{
