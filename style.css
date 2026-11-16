@@ -15,7 +15,7 @@ body {
 
 header{
     background: 
-        linear-gradient(rgba(10, 10, 10, 10), rgba(10, 10, 10, 10)),
+        linear-gradient(rgba(13, 21, 41, 0.55), rgba(13, 21, 41, 0.55)),
         url("Images/HeaderImg1.jpg") center / cover no-repeat;
     color: #ffffff;
     text-align: center;
