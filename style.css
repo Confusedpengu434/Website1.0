@@ -19,7 +19,7 @@ header{
         url("Images/HeaderImg1.jpg") center / cover no-repeat;
     color: #ffffff;
     text-align: center;
-    padding: 6rem 1rem;
+    padding: 10rem 1rem;
 }
 /* max width stops text from stretching on wider monitors */
 /* margin: 2rem auto above and below main while horizontally centering it */
