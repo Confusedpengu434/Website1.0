@@ -89,6 +89,11 @@ footer{
     padding: 0.75rem 1rem;
 }
 
+.top-nav
+.nav-home {
+    font-size: 2rem;
+}
+
 .top-nav a, 
 .dropdown summary {
     color: #EAAA00;
