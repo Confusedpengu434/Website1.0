@@ -47,7 +47,31 @@ main{
     align-items: start;
 }
 
-.intro-Paragraph img{
+.pic-left-cell {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.pic-left-cell-h2 {
+    text-align: right; 
+    padding: 1rem 2rem 0rem 3rem;
+}
+
+.pic-left-cell img{
+    width: 100%;
+    height: auto;
+    border: 4px solid #002855;
+}
+
+.pic-right-cell {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+.pic-right-cell img{
     width: 100%;
     height: auto;
     border: 4px solid #002855;
@@ -91,6 +115,13 @@ h2{
     margin-bottom: 0.75rem;
     color: #0f172a;
 }
+
+hr {
+    border: 0;
+    border-top: 2px solid #002855;
+    margin: 1rem 0;
+}
+
 ul{
     padding-left: 1.25rem;
 }
