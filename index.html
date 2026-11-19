@@ -1,35 +1,41 @@
 <!DOCTYPE html> <!-- Tells browser to use modern HTML rules-->
 <html lang="en"> <!-- Starts page in the english language-->
+    
     <head>
         <!--name = "viewport" is for mobile responsiveness so the site does not look zoomed out on phones-->
         <!--<title> sets the text shown in browser tab and google search results-->
         <meta charset = "UTF-8"> <!-- Sets character set encoding -->
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <title>Evansdale 2050: Critical Infrastructure Security Lab</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">  <!--For adjusting to phone / monitor screens -->
+        <title>Evansdale 2050: Critical Infrastructure Security Lab</title> <!-- Title of the page, shown on websearches and tabs -->
+        <link rel="stylesheet" href="style.css"> <!-- Reference to style sheet for formatting data -->
+    </head> <!-- End of the head container -->
+    
+    <body>  <!-- Container for holding the majority of the content on the page -->
         
-        <nav class="top-nav" aria-label ="Main navigation">
-            <a class="nav-home" href="index.html">Evansdale 2050</a>
+        <nav class="top-nav" aria-label ="Main navigation">     <!-- Container for Page top Dropdown menu -->
+            <a class="nav-home" href="index.html">  <!-- defines a class for style.css to refer to with style data, creates a clickable link back to the home page -->
+                <img src="Images/2050Logo(rough).png" alt="Evansdale 2050"> <!-- The link to go back home uses the image stated here as a target for interaction, alt is a text description for people using screen readers -->
+            </a>
 
-            <details class="dropdown">
-                <summary>Menu</summary>
-                <div class="dropdown-links">
-                    <a href="#about"> About the Lab </a>
-                    <a href="https://www.wvu.edu/"> WVU </a>
-                    <a href="stories.html"> Stories </a>
+            <details class="dropdown"> <!-- creates an expandable, collapsible section -->
+                <summary>Menu</summary> <!-- Visible part you click to open the dropdown menu -->
+                <div class="dropdown-links"> <!-- Groups the links in the dropdown menu-->
+                    <a href="https://www.wvu.edu/"> WVU </a>        <!-- All these are links-->
+                    <a href="stories.html"> Stories </a>            <!-- -->
+                    <a href="Technology.html"> Lab Equipment </a>   <!-- -->
                 </div>
             </details>
         </nav>
         
-        <header>
+        <header class="index-head"> <!-- header section for defining the top of the page content-->
             <h1>Evansdale 2050: The Critical Infrastructure Lab</h1>
             <p>Big Changes Start Small.</p>
         </header>
         
-        <main id = "about">
-            <h1><u>Evansdale 2050 - Infrastructure and Security</u></h1>
+        <main id = "about"> <!-- container holding the main body of the page, most content sits here-->
+            
+            <h2><u>Evansdale 2050 - Infrastructure and Security</u></h2>
+            
             <div class="intro-Paragraph">
                 <p>
                     Evansdale 2050 is home to the Critical Infrastructure Security Lab (CIL).
@@ -39,6 +45,13 @@
                 </p>
                 <img src="Images/IntroImg1.jpg" alt="Personal Rapid Trainst System Simulation in the Critical Infrastructure Security Lab">
             </div>
+
+            <div>
+                <p>
+
+                </p>
+            </div>
+        
         </main>
         
         <footer>

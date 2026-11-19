@@ -13,13 +13,22 @@ body {
     background-color: #f6efef;
 }
 
-header{
+.index-head{
     background: 
         linear-gradient(rgba(13, 21, 41, 0.55), rgba(13, 21, 41, 0.45)),
-        url("Images/HeaderImg1.jpg") center / cover no-repeat;
+        url("Images/IntroHeader1.jpg") center / cover no-repeat;
+
+}
+
+.tech-header{
+    background:
+        linear-gradient(rgba(13, 21, 41, 0.55), rgba(13, 21, 41, 0.45)),
+        url("Images/techheader.jpg") center / cover no-repeat;
+}
+header{
     color: #ffffff;
     text-align: center;
-    padding: 8rem 1rem;
+    padding: 7rem 1rem;
 }
 /* max width stops text from stretching on wider monitors */
 /* margin: 2rem auto above and below main while horizontally centering it */
@@ -30,21 +39,39 @@ main{
     margin: 2rem auto;
     padding: 0 1rem;
 }
+
 .intro-Paragraph{
     display: grid;
     grid-template-columns: 1.1fr 1fr;
     gap: 1rem;
     align-items: start;
 }
+
 .intro-Paragraph img{
     width: 100%;
     height: auto;
+    border: 4px solid #002855;
 }
+
+.PRT-emu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    align-items: start;
+}
+
+.PRT-emu img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #002855;
+}
+
 @media (max-width: 600px){
     .intro-Paragraph {
         grid-template-columns: 1fr;
     }
 }
+
 
 section{
     background-color: #ffffff;
@@ -55,7 +82,7 @@ section{
 }
 
 h1{
-    font-size: 2.25rem;
+    font-size: 3.75rem;
     margin-bottom: 0.5rem;
 }
 
@@ -92,6 +119,12 @@ footer{
 .top-nav
 .nav-home {
     font-size: 2rem;
+}
+
+.nav-home img {
+    display: block;
+    height: 3rem;
+    width: auto;
 }
 
 .top-nav a, 
