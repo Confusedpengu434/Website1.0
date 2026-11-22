@@ -25,6 +25,12 @@ body {
         linear-gradient(rgba(13, 21, 41, 0.55), rgba(13, 21, 41, 0.45)),
         url("Images/techheader.jpg") center / cover no-repeat;
 }
+
+.stories-header{
+    background:
+        linear-gradient(rgba(13, 21, 41, 0.55), rgba(13, 21, 41, 0.45)),
+        url("Images/Him.jpg") center 50% / cover no-repeat;
+}
 header{
     color: #ffffff;
     text-align: center;
@@ -49,7 +55,7 @@ main{
 
 .pic-left-cell {
     display: grid;
-    grid-template-columns: 1.1fr 1fr;
+    grid-template-columns: 1fr 1.1fr;
     gap: 1rem;
     align-items: start;
 }
