@@ -61,7 +61,7 @@ main{
 }
 
 .pic-left-cell-h2 {
-    text-align: right; 
+    text-align: center; 
     padding: 1rem 2rem 0rem 3rem;
 }
 
@@ -116,10 +116,15 @@ h1{
     margin-bottom: 0.5rem;
 }
 
+.mid-header {
+    text-align: center;
+}
+
 h2{
     font-size: 1.2rem;
     margin-bottom: 0.75rem;
     color: #0f172a;
+    text-align: center;
 }
 
 hr {
@@ -142,7 +147,8 @@ a:hover{
 footer{
     text-align: center;
     padding: 2rem 1rem;
-    color: #64748b;
+    background-color: #002855;
+    color: #FFFFFF;
 }
 
 .top-nav {
